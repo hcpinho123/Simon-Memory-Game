@@ -43,3 +43,12 @@ To run this game locally, follow these steps:
 1. Clone the repository:
    ```bash
    git clone https://github.com/yourusername/simon-memory-game.git
+
+2. Navigate to the project directory:
+   ```bash
+   cd simon-memory-game
+3. Open index.html in your preferred web browser.
+
+##Contributing
+Contributions are welcome! If you have suggestions for improvements or new features, feel free to open an issue or submit a pull request.
+
