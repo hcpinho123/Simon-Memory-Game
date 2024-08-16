@@ -49,6 +49,6 @@ To run this game locally, follow these steps:
    cd simon-memory-game
 3. Open index.html in your preferred web browser.
 
-##Contributing
+## Contributing
 Contributions are welcome! If you have suggestions for improvements or new features, feel free to open an issue or submit a pull request.
 
