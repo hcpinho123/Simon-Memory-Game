@@ -1,0 +1,106 @@
+body {
+  text-align: center;
+  background-color: #011F3F;
+  margin: 0;
+  padding: 0;
+}
+
+#level-title {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 2.5rem;
+  margin-top: 50px;
+  color: #FEF2BF;
+}
+
+.grid-container {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-template-rows: repeat(2, auto);
+  grid-template-columns: repeat(2, auto);
+  margin-top: 40px;
+}
+
+button {
+  margin: 10px;
+  background-color: #FEF2BF;
+  font-size: 1rem;
+  font-family: 'Press Start 2P', cursive;
+  height: 50px;
+  width: 150px;
+  border: 10px solid black;
+  border-radius: 15%;
+  cursor: pointer;
+}
+
+.btn {
+  margin: 25px;
+  height: 200px;
+  width: 200px;
+  border: 10px solid black;
+  border-radius: 20%;
+  cursor: pointer;
+}
+
+/* Adjust for tablet screens */
+@media(max-width: 768px) {
+  .btn {
+    height: 160px;
+    width: 160px;
+    margin: 20px;
+  }
+
+  #level-title {
+    font-size: 2rem;
+  }
+
+  button {
+    font-size: 0.9rem;
+    height: 45px;
+    width: 140px;
+  }
+}
+
+/* Adjust for mobile screens */
+@media(max-width: 600px) {
+  .btn {
+    height: 120px;
+    width: 120px;
+    margin: 15px;
+  }
+
+  #level-title {
+    font-size: 1.5rem;
+  }
+
+  button {
+    font-size: 0.8rem;
+    height: 40px;
+    width: 130px;
+  }
+
+  .grid-container {
+    margin-top: 60px;
+  }
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.yellow {
+  background-color: yellow;
+}
